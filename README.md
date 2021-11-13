@@ -19,5 +19,5 @@ dingtalk = 'xxxxx'
 
 运行
 ```bash
-$ python run.py
+$ ./run.py
 ```

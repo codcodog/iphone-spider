@@ -13,6 +13,7 @@ def run():
     for store_key in config.stores:
         if store_key in stores:
             data = stores[store_key]
+            #data['MLE63CH/A'] = {'availability': {'contract': False, 'unlocked': True}}
             for key in data:
                 if data[key]['availability']['unlocked'] and key in config.iPhones:
                     store_name = config.stores[store_key]
